@@ -2,253 +2,162 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sonkar Choice Center | धमतरी</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f7fc;
-            color: #222;
-        }
-
-        header {
-            background: #102b50;
-            color: white;
-            padding: 28px 15px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0 0 10px;
-            font-size: 29px;
-        }
-
-        header p {
-            margin: 0;
-            color: #f5c45e;
-        }
-
-        nav {
-            background: #f5c45e;
-            padding: 13px 5px;
-            text-align: center;
-        }
-
-        nav a {
-            color: #102b50;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 0 10px;
-        }
-
-        .hero {
-            background: white;
-            padding: 45px 18px;
-            text-align: center;
-        }
-
-        .hero h2 {
-            color: #174a85;
-            font-size: 30px;
-        }
-
-        .hero p {
-            line-height: 1.8;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 13px 20px;
-            margin: 8px 4px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-        }
-
-        .whatsapp {
-            background: #16834a;
-        }
-
-        .call {
-            background: #185abc;
-        }
-
-        .section {
-            max-width: 950px;
-            margin: auto;
-            padding: 30px 16px;
-        }
-
-        .section h2 {
-            text-align: center;
-            color: #102b50;
-        }
-
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 16px;
-        }
-
-        .card {
-            background: white;
-            padding: 22px 12px;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: 0 3px 12px #0000000d;
-        }
-
-        .card .emoji {
-            font-size: 35px;
-        }
-
-        .card h3 {
-            color: #174a85;
-        }
-
-        .contact {
-            background: #e4edf9;
-            text-align: center;
-            padding: 30px 15px;
-        }
-
-        .contact p {
-            line-height: 1.8;
-        }
-
-        footer {
-            background: #102b50;
-            color: white;
-            text-align: center;
-            padding: 18px 10px;
-        }
-
-        @media (max-width: 500px) {
-            header h1 {
-                font-size: 23px;
-            }
-
-            nav a {
-                display: inline-block;
-                margin: 6px;
-            }
-
-            .cards {
-                grid-template-columns: 1fr;
-            }
-
-            .hero h2 {
-                font-size: 25px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonkar Choice Center | Dhamtari</title>
+  <meta name="description" content="Sonkar Choice Center Dhamtari में ऑनलाइन फॉर्म, प्रिंटिंग, फोटोकॉपी और कंप्यूटर सेवाएँ।">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans Devanagari", sans-serif;
+      background: #f4f7fb;
+      color: #202b3c;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #083c8c, #0879c9);
+      color: white;
+      padding: 34px 18px;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 30px; }
+    header p { margin: 8px 0 0; }
+    nav {
+      background: #062d65;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      display: inline-block;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 35px 18px;
+      background: white;
+    }
+    .hero h2 { color: #0754a5; margin-top: 0; }
+    .btn {
+      display: inline-block;
+      background: #138b45;
+      color: white;
+      padding: 11px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    main { max-width: 1050px; margin: auto; padding: 24px 16px; }
+    .section-title { text-align: center; color: #0754a5; }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 3px 12px #00000010;
+      border-top: 4px solid #0879c9;
+    }
+    .card h3 { margin-top: 0; color: #0754a5; }
+    .contact {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+      margin-top: 28px;
+    }
+    footer {
+      background: #062d65;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      margin-top: 25px;
+    }
+    @media (max-width: 480px) {
+      header h1 { font-size: 24px; }
+      nav a { margin: 4px 6px; }
+    }
+  </style>
 </head>
-
 <body>
 
-    <header>
-        <h1>SONKAR CHOICE CENTER</h1>
-        <p>आपकी सेवा में सदैव तत्पर</p>
-    </header>
+<header>
+  <h1>SONKAR CHOICE CENTER</h1>
+  <p>आपकी डिजिटल सेवाओं का विश्वसनीय केंद्र</p>
+  <p>धमतरी, छत्तीसगढ़</p>
+</header>
 
-    <nav>
-        <a href="#home">होम</a>
-        <a href="#services">हमारी सेवाएँ</a>
-        <a href="#contact">संपर्क करें</a>
-    </nav>
+<nav>
+  <a href="#home">होम</a>
+  <a href="#services">हमारी सेवाएँ</a>
+  <a href="#contact">संपर्क करें</a>
+</nav>
 
-    <section class="hero" id="home">
-        <h2>आपका हार्दिक स्वागत है!</h2>
+<section class="hero" id="home">
+  <h2>आपका हार्दिक स्वागत है!</h2>
+  <p>ऑनलाइन फॉर्म, प्रिंटिंग और कंप्यूटर से जुड़ी सेवाएँ एक ही जगह।</p>
+  <a class="btn" href="#services">हमारी सेवाएँ देखें</a>
+  <br>
+  <a class="btn" href="https://wa.me/917879120085"
+     target="_blank" rel="noopener">WhatsApp पर संपर्क करें</a>
+</section>
 
-        <p>
-            Sonkar Choice Center, धमतरी में आपका स्वागत है।
-            ऑनलाइन फॉर्म, प्रिंटिंग और कंप्यूटर सेवाओं
-            की जानकारी के लिए हमसे संपर्क करें।
-        </p>
+<main>
+  <h2 class="section-title" id="services">हमारी सेवाएँ</h2>
 
-        <a class="button whatsapp"
-           href="https://wa.me/917879120085"
-           target="_blank" rel="noopener">
-            WhatsApp करें
-        </a>
+  <div class="services">
+    <div class="card">
+      <h3>📝 ऑनलाइन फॉर्म</h3>
+      <p>सरकारी योजनाओं, परीक्षा और अन्य ऑनलाइन आवेदनों में सहायता।</p>
+    </div>
 
-        <a class="button call"
-           href="tel:+917879120085">
-            अभी कॉल करें
-        </a>
-    </section>
+    <div class="card">
+      <h3>🖨️ कलर प्रिंटिंग</h3>
+      <p>रंगीन दस्तावेज़, फोटो और जरूरी कागजात की प्रिंटिंग।</p>
+    </div>
 
-    <section class="section" id="services">
-        <h2>हमारी सेवाएँ</h2>
+    <div class="card">
+      <h3>📄 ब्लैक एंड व्हाइट प्रिंट</h3>
+      <p>आवेदन, नोट्स और दस्तावेज़ों की श्वेत-श्याम प्रिंटिंग।</p>
+    </div>
 
-        <div class="cards">
+    <div class="card">
+      <h3>📑 फोटोकॉपी और स्कैनिंग</h3>
+      <p>जरूरी कागजात की फोटोकॉपी और डिजिटल स्कैनिंग।</p>
+    </div>
 
-            <div class="card">
-                <div class="emoji">📝</div>
-                <h3>ऑनलाइन फॉर्म</h3>
-                <p>उपलब्ध ऑनलाइन आवेदन और फॉर्म भरने की सेवाएँ।</p>
-            </div>
+    <div class="card">
+      <h3>⌨️ हिंदी-अंग्रेजी टाइपिंग</h3>
+      <p>आवेदन, पत्र, दस्तावेज़ और अन्य टाइपिंग कार्य।</p>
+    </div>
 
-            <div class="card">
-                <div class="emoji">🖨️</div>
-                <h3>प्रिंटिंग सेवाएँ</h3>
-                <p>दस्तावेजों की प्रिंटिंग और उपलब्ध प्रिंट सेवाएँ।</p>
-            </div>
+    <div class="card">
+      <h3>📋 रिज्यूमे और दस्तावेज़</h3>
+      <p>रिज्यूमे बनाने और दस्तावेज़ तैयार करने में सहायता।</p>
+    </div>
+  </div>
 
-            <div class="card">
-                <div class="emoji">💻</div>
-                <h3>कंप्यूटर सेवाएँ</h3>
-                <p>टाइपिंग और कंप्यूटर से जुड़े उपलब्ध कार्य।</p>
-            </div>
+  <section class="contact" id="contact">
+    <h2>हमसे संपर्क करें</h2>
+    <p><strong>दुकान:</strong> Sonkar Choice Center</p>
+    <p><strong>पता:</strong> रिसाई पारा, शिव मंदिर के पास, धमतरी</p>
+    <p><strong>मोबाइल:</strong> 7879120085</p>
+    <a class="btn" href="https://wa.me/917879120085"
+       target="_blank" rel="noopener">WhatsApp पर मैसेज करें</a>
+  </section>
+</main>
 
-            <div class="card">
-                <div class="emoji">📄</div>
-                <h3>दस्तावेज़ सहायता</h3>
-                <p>दस्तावेज़ संबंधी जानकारी और उपलब्ध सहायता।</p>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2>संपर्क करें</h2>
-
-        <p><strong>दुकान:</strong> Sonkar Choice Center</p>
-
-        <p>
-            <strong>पता:</strong>
-            रिसाई पारा, शिव मंदिर के पास, धमतरी, छत्तीसगढ़
-        </p>
-
-        <p>
-            <strong>मोबाइल:</strong> 7879120085
-        </p>
-
-        <a class="button whatsapp"
-           href="https://wa.me/917879120085"
-           target="_blank" rel="noopener">
-            WhatsApp पर संदेश भेजें
-        </a>
-
-        <a class="button call"
-           href="tel:+917879120085">
-            फोन करें
-        </a>
-    </section>
-
-    <footer>
-        <p>© 2026 Sonkar Choice Center</p>
-        <p>धमतरी, छत्तीसगढ़</p>
-    </footer>
+<footer>
+  <p>© Sonkar Choice Center, Dhamtari</p>
+  <p>आपकी सेवा में सदैव तत्पर</p>
+</footer>
 
 </body>
 </html>
